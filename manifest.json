@@ -8,8 +8,7 @@
         "storage"
     ],
     "browser_action": {
-        "default_title": "HCMUS_moodle_change_color",
-        "default_popup": "popup.html"
+        "default_title": "HCMUS_moodle_change_color"
     },
     "content_scripts": [
         {
