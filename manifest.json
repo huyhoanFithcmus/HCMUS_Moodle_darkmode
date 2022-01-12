@@ -20,7 +20,9 @@
             ],
             "js": [
                 "src/jquery.js",
-                "src/Main.js"
+                "src/Main.js",
+                "src/Main2.js",
+                "src/Main3.js"
             ]
         }
     ]
