@@ -1,7 +1,7 @@
 {
-    "name": "HCMUS_moodle_change_color",
-    "description": "Change color of the moodle",
-    "author": "Nguyen Huy Hoan",
+    "name": "HCMUS_moodle_darkmode",
+    "description": "Create a Dark theme for fit@hcmus's moodle",
+    "author": "Pham Phuoc Sang, Nguyen Huy Hoan",
     "version": "1.0",
     "manifest_version": 2,
     "permissions": [
