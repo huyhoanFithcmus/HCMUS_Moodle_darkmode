@@ -1,0 +1,28 @@
+{
+    "name": "HCMUS_moodle_change_color",
+    "description": "Change color of the moodle",
+    "author": "Nguyen Huy Hoan",
+    "version": "1.0",
+    "manifest_version": 2,
+    "permissions": [
+        "storage"
+    ],
+    "browser_action": {
+        "default_title": "HCMUS_moodle_change_color",
+        "default_popup": "popup.html"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://courses.fit.hcmus.edu.vn/*",
+                "https://courses.fit.hcmus.edu.vn/?*",
+                "https://courses.ctda.hcmus.edu.vn/*",
+                "https://courses.ctda.hcmus.edu.vn/?*"
+            ],
+            "js": [
+                "src/jquery.js",
+                "src/Main.js"
+            ]
+        }
+    ]
+}
