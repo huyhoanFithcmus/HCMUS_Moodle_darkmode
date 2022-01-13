@@ -20,6 +20,7 @@ for(var i=0;i<headermain.length;i++){
     
       
 }
+
 var navbarElement= document.getElementsByClassName("navbar-nav");
 var pageElement=document.getElementById("page");
 
@@ -30,7 +31,21 @@ for(var i=0;i<courseName.length;i++){
     temp[j].style.color="#ffffff";    
 }
 }
-
+var btnsucess=document.getElementsByClassName("btn btn-outline-success");
+for (var i=0;i<btnsucess.length;i++)
+{
+    btnsucess[i].style.setProperty("color","rgb(140 250 199)","important");
+}
+var btnsucess=document.getElementsByClassName("popover-region-content");
+for (var i=0;i<btnsucess.length;i++)
+{
+    btnsucess[i].style.backgroundColor="#343a40";
+}
+var btnsucessA=document.getElementsByClassName("btn-outline-secondary");
+for (var i=0;i<btnsucessA.length;i++)
+{
+    btnsucessA[i].style.color="#eee";
+}
 
 var Caibang2 =document.getElementsByTagName("td");
 for(var i=0;i<Caibang2.length;i++){
@@ -195,7 +210,7 @@ for(var i = 0; i < grade_table.length; i++) {
     grade_table[i].style.backgroundColor = "#2e5185";
 }
 
-var grade_tabl1 = document.getElementsByClassName('header c1');
+var grade_table1 = document.getElementsByClassName('header c1');
 for(var i = 0; i < grade_table1.length; i++) {
     grade_table1[i].style.backgroundColor = "#2e5185";
 }

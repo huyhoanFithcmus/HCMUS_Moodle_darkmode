@@ -77,13 +77,19 @@ for(var i = 0; i < footer_text.length; i++) {
 var btn_succeed = document.getElementsByClassName('btn-outline-success');
 
 for(var i = 0; i < btn_succeed.length; i++) {
-    btn_succeed[i].style.color = "#2e5185";
+    btn_succeed[i].style.color = "rgb(140 250 199)";
 }
 
 var btn_primary = document.getElementsByClassName('coursebox');
 
 for(var i = 0; i < btn_primary.length; i++) {
-    btn_primary[i].style.backgroundColor = "black";
+    btn_primary[i].style.backgroundColor = "#212529";
 }
 
 document.body.style.backgroundColor = "black";
+document.body.style.color = "#eee";
+var btn_primary = document.getElementsByClassName('btn btn-secondary btn-block');
+
+for(var i = 0; i < btn_primary.length; i++) {
+    btn_primary[i].style.backgroundColor = "#eee";
+}
