@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # HCMUS Moodle Darkmode Theme 
 
 ## Đây là dự án biến tấu trang web moodle của khoa công nghệ thông tin Trường Đại học Khoa học Tự nhiên - ĐHQGHCM thành một trang web moodle với theme Darkmode.
@@ -37,5 +38,8 @@
 
 
 
+=======
+# HCMUS_Moodle_darkmode
+>>>>>>> da6ef13f45e619d66aeb236cfdaf60dc1bbcd315
 
 
