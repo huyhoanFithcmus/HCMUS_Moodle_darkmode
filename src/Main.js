@@ -93,3 +93,9 @@ var btn_primary = document.getElementsByClassName('btn btn-secondary btn-block')
 for(var i = 0; i < btn_primary.length; i++) {
     btn_primary[i].style.backgroundColor = "#eee";
 }
+
+var btn_primary = document.getElementsByClassName('section img-text');
+
+for(var i = 0; i < btn_primary.length; i++) {
+    btn_primary[i].style.backgroundColor = "#212529";
+}
