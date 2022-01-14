@@ -175,3 +175,13 @@ var btnsucessA=document.getElementsByClassName("calendar_event_course");
     
     btnsucessA[i].style.setProperty("background-color","#212529","important");
     }
+
+var imagelist=[ "https://wallpaperaccess.com/full/767456.jpg","https://wallpaper.dog/large/989309.jpg"];
+var btnsucessA=document.getElementsByClassName("carousel-item");
+for (var i=0;i<btnsucessA.length;i++)
+  {
+  
+  btnsucessA[i].style.setProperty("background-image","url("+imagelist[i]+")","important");
+  }
+
+    

@@ -17,6 +17,7 @@
                 "https://courses.fit.hcmus.edu.vn/?*",
                 "https://courses.ctda.hcmus.edu.vn/*",
                 "https://courses.ctda.hcmus.edu.vn/?*"
+                
             ],
             "js": [
                 "src/jquery.js",
