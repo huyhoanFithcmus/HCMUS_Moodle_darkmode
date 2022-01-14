@@ -44,11 +44,6 @@ for (var i=0;i<btnsucess.length;i++)
 {
     btnsucess[i].style.backgroundColor="#343a40";
 }
-var btnsucessA=document.getElementsByClassName("btn-outline-secondary");
-for (var i=0;i<btnsucessA.length;i++)
-{
-    btnsucessA[i].style.color="#eee";
-}
 
 
 
@@ -191,4 +186,47 @@ for(var i = 0; i < grade_table.length; i++) {
 var grade_table1 = document.getElementsByClassName('header c1');
 for(var i = 0; i < grade_table1.length; i++) {
     grade_table1[i].style.backgroundColor = "#2e5185";
+}
+listgr = document.getElementsByClassName("section border-0 card"); 
+for(var i = 0; i < listgr.length; i++){
+    listgr[i].style.setProperty("background-color","#e9ecef","important") 
+}
+listgr = document.getElementsByClassName("section border-0 card expanded"); 
+for(var i = 0; i < listgr.length; i++){
+    listgr[i].style.setProperty("background-color","#e9ecef","important") 
+}
+var btn_succeed = document.getElementsByClassName('btn-outline-success');
+
+for(var i = 0; i < btn_succeed.length; i++) {
+    btn_succeed[i].style.color = "#2e5185";
+}
+var btn_primary = document.getElementsByClassName('footer-main foot-links');
+
+for(var i = 0; i < btn_primary.length; i++) {
+   var temp= btn_primary[i].getElementsByTagName("ul li a")
+   for(var j=0 ; j<temp.length;j++)
+   {
+       temp[j].style.setProperty("color","#eee","important")
+       
+   }
+   
+}
+var btn_succeed = document.getElementsByTagName('button');
+
+for(var i = 0; i < btn_succeed.length; i++) {
+    var temp =btn_succeed[i].getElementsByClassName("btn btn-outline-success");
+    for (var j=0;j<temp.length;j++)
+    {
+        temp[j].style.color = "rgb(205 255 191)";
+    }
+}
+var btnsucessA=document.getElementsByClassName("btn-outline-secondary");
+for (var i=0;i<btnsucessA.length;i++)
+{
+    btnsucessA[i].style.color="#eee";
+}
+var btnsucessA=document.getElementsByClassName("m-0 text-truncate");
+for (var i=0;i<btnsucessA.length;i++)
+{
+    btnsucessA[i].style.color="#212529";
 }

@@ -99,3 +99,60 @@ var btn_primary = document.getElementsByClassName('section img-text');
 for(var i = 0; i < btn_primary.length; i++) {
     btn_primary[i].style.backgroundColor = "#212529";
 }
+listgr = document.getElementsByClassName("list-group-item-action"); 
+for(var i = 0; i < listgr.length; i++){
+    listgr[i].style.backgroundColor = "#eee"
+}
+listgr = document.getElementsByClassName("media-body"); 
+for(var i = 0; i < listgr.length; i++){
+    listgr[i].style.color = "#212529"
+}
+
+listgr = document.getElementsByClassName("media-body font-weight-bold"); 
+for(var i = 0; i < listgr.length; i++){
+    listgr[i].style.color = "#212529"
+}
+
+var btn_primary = document.getElementsByClassName('footer-main foot-links');
+
+for(var i = 0; i < btn_primary.length; i++) {
+   var temp= btn_primary[i].getElementsByTagName("ul li a")
+   for(var j=0 ; j<temp.length;j++)
+   {
+       temp[j].style.setProperty("color","#eee","important")
+       
+   }
+   
+}
+listgr = document.getElementsByClassName("section border-0 card"); 
+for(var i = 0; i < listgr.length; i++){
+    listgr[i].style.setProperty("background-color","#e9ecef","important") 
+}
+listgr = document.getElementsByClassName("section border-0 card expanded"); 
+for(var i = 0; i < listgr.length; i++){
+    listgr[i].style.setProperty("background-color","#e9ecef","important") 
+}
+var btn_succeed = document.getElementsByClassName('btn-outline-success');
+
+for(var i = 0; i < btn_succeed.length; i++) {
+    btn_succeed[i].style.color = "#2e5185";
+}
+var btn_succeed = document.getElementsByTagName('button');
+
+for(var i = 0; i < btn_succeed.length; i++) {
+    var temp =btn_succeed[i].getElementsByClassName("btn-outline-success");
+    for (var j=0;j<temp.length;j++)
+    {
+        temp[j].style.color = "rgb(205 255 191)";
+    }
+}
+var btnsucessA=document.getElementsByClassName("btn-outline-secondary");
+for (var i=0;i<btnsucessA.length;i++)
+{
+    btnsucessA[i].style.color="#eee";
+}
+var btnsucessA=document.getElementsByClassName("m-0 text-truncate");
+for (var i=0;i<btnsucessA.length;i++)
+{
+    btnsucessA[i].style.color="#212529";
+}
