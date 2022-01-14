@@ -156,3 +156,22 @@ for (var i=0;i<btnsucessA.length;i++)
 {
     btnsucessA[i].style.color="#212529";
 }
+
+
+// setInterval(
+//     function () {
+        
+//       var randomColor = Math.floor(Math.random()*16777215).toString(16);
+//       var btnsucessA=document.getElementsByClassName("calendar_event_course");
+//       for (var i=0;i<btnsucessA.length;i++)
+//     {
+    
+//     btnsucessA[i].style.setProperty("background-color","#"+randomColor,"important");
+//     }
+//     },1000);
+var btnsucessA=document.getElementsByClassName("calendar_event_course");
+      for (var i=0;i<btnsucessA.length;i++)
+    {
+    
+    btnsucessA[i].style.setProperty("background-color","#212529","important");
+    }
